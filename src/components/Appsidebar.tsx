@@ -8,6 +8,7 @@ import {
   LifeBuoy,
   Trash2,
   Megaphone,
+  Files,
 } from "lucide-react";
 import {
   Sidebar,
@@ -32,9 +33,9 @@ const items = [
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "/inbox",
-    icon: Inbox,
+    title: "Documents",
+    url: "/document",
+    icon: Files,
   },
   {
     title: "Calendar",
@@ -114,7 +115,7 @@ const Appsidebar = () => {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter>
-        <NavSecondary items={data.navSecondary} />
+        {/* <NavSecondary items={data.navSecondary} /> */}
       </SidebarFooter>
     </Sidebar>
   );

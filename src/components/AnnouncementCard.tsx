@@ -25,7 +25,7 @@ export function AnnouncementCard() {
                   <CardDescription>July 23, 9.00 AM</CardDescription>
                 </div>
               </div>
-              <div className="flex flex-row ml-48 gap-2 items-center">
+              <div className="flex flex-row ml-95 gap-2 items-center">
                 <Pin strokeWidth={1.5} className="text-muted-foreground" />
                 <DropdownMenuDemo />
               </div>
@@ -48,7 +48,7 @@ export function AnnouncementCard() {
               </div>
             </CardContent>
             <CardFooter>
-              <div className="flex flex-row gap-1 ml-110 mt-4">
+              <div className="flex flex-row gap-1 ml-155 mt-4">
                 <Eye
                   size={20}
                   strokeWidth={1.5}
@@ -72,7 +72,7 @@ export function AnnouncementCard() {
                   <CardDescription>July 23, 9.00 AM</CardDescription>
                 </div>
               </div>
-              <div className="flex flex-row ml-48 gap-2 items-center">
+              <div className="flex flex-row ml-95 gap-2 items-center">
                 <Pin strokeWidth={1.5} className="text-muted-foreground" />
                 <DropdownMenuDemo />
               </div>
@@ -95,7 +95,7 @@ export function AnnouncementCard() {
               </div>
             </CardContent>
             <CardFooter>
-              <div className="flex flex-row gap-1 ml-110 mt-4">
+              <div className="flex flex-row gap-1 ml-155 mt-4">
                 <Eye
                   size={20}
                   strokeWidth={1.5}

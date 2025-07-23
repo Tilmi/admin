@@ -20,8 +20,8 @@ export function Card3() {
             </HoverCardTrigger>
           </HoverCard>
           <div className="flex flex-col">
-            <CardTitle>Read Count</CardTitle>
-            <h1 className="text-2xl font-bold mt-1">200</h1>
+            <CardTitle>Total Views</CardTitle>
+            <h1 className="text-2xl font-bold mt-1">30</h1>
           </div>
         </CardHeader>
       </Card>
