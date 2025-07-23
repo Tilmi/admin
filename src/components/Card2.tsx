@@ -1,0 +1,30 @@
+import { Eye, Megaphone } from "lucide-react";
+import { Card, CardHeader, CardTitle } from "./ui/card";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
+
+export function Card2() {
+  return (
+    <div>
+      <Card>
+        <CardHeader className="flex items-center gap-4">
+          <HoverCard>
+            <HoverCardTrigger>
+              <Megaphone
+                size={40}
+                className="rounded-full bg-red-500/30 border-1 border-red-500/50 p-2 text-red-500 shadow-lg"
+              />
+            </HoverCardTrigger>
+          </HoverCard>
+          <div className="flex flex-col">
+            <CardTitle>Total Announcement</CardTitle>
+            <h1 className="text-2xl font-bold mt-1">10</h1>
+          </div>
+        </CardHeader>
+      </Card>
+    </div>
+  );
+}
