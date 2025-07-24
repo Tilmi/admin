@@ -2,6 +2,7 @@ import { SwitchDemo } from "./SwitchSettings";
 import { Button } from "./ui/button";
 import {
   Card,
+  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -15,24 +16,26 @@ export function CardSettings() {
     <Card>
       <CardHeader>
         <CardTitle>Security</CardTitle>
-        <CardDescription>
-          Manage and Secure your account password
-        </CardDescription>
+        <CardDescription>Manage and secure your account.</CardDescription>
         <Separator />
-        <CardTitle className="mt-4"> Current Password</CardTitle>
-        <Input disabled type="password" placeholder="••••••••" />
-        <CardTitle className="mt-2"> New Password</CardTitle>
-        <Input disabled type="password" />
-        <CardTitle className="mt-2"> Confirm Password</CardTitle>
-        <Input disabled type="password" />
-        <CardTitle className="mt-2 mb-1"> Two-Factor Authentication</CardTitle>
-        <SwitchDemo />
+        <CardTitle className="mt-4">Current Password</CardTitle>
+        <Input type="password" placeholder="••••••••" disabled />
       </CardHeader>
-      <CardFooter className="flex justify-end gap-3">
-        <Button type="submit" variant={"outline"}>
-          Cancel
-        </Button>
-        <Button type="submit">Save</Button>
+      <CardContent>
+        <CardTitle>New Password</CardTitle>
+        <Input type="password" placeholder="" disabled className="mt-2 mb-1" />
+        <CardTitle className="mt-2">Confirm Password</CardTitle>
+        <Input type="password" placeholder="" disabled className="mt-2 mb-1" />
+        <div className="flex flex-col mt-2">
+          <CardTitle className="mb-2">Two factor authentication</CardTitle>
+          <SwitchDemo />
+        </div>
+      </CardContent>
+      <CardFooter>
+        <div className="flex flex-row gap-2">
+          <Button variant="outline">Cancel</Button>
+          <Button>Save</Button>
+        </div>
       </CardFooter>
     </Card>
   );

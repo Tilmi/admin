@@ -14,8 +14,8 @@ const AnnouncementPage = () => {
         <div className="">
           <PinnedCard />
         </div>
-        <div className="col-span-2">
-          <div className="">
+        <div className="lg:col-span-2 md:col-span-2 sm:col-span-1">
+          <div className="sticky top-0 max-h-[500px] overflow-y-auto">
             <AnnouncementCard />
           </div>
         </div>

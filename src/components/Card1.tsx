@@ -11,14 +11,10 @@ export function Card1() {
     <div>
       <Card>
         <CardHeader className="flex items-center gap-4">
-          <HoverCard>
-            <HoverCardTrigger>
-              <Users
-                size={40}
-                className="rounded-full bg-blue-500/30 border-1 border-blue-500/50 p-2 text-blue-500 shadow-lg"
-              />
-            </HoverCardTrigger>
-          </HoverCard>
+          <Users
+            size={40}
+            className="rounded-full bg-blue-500/30 border-1 border-blue-500/50 p-2 text-blue-500 shadow-lg"
+          />
           <div className="flex flex-col">
             <CardTitle>Total Employees</CardTitle>
             <h1 className="text-2xl font-bold mt-1">200</h1>

@@ -9,6 +9,7 @@ import ChartRadialLabel from "@/components/ChartRadialLabel";
 import { AnnouncementReadersCard } from "@/components/AnnouncementReadersCard";
 
 import Image from "next/image";
+import { ActivityCard } from "@/components/ActivityCard";
 
 const Dashboard = () => {
   return (
@@ -41,13 +42,10 @@ const Dashboard = () => {
             <ChartBarStacked />
           </div>
         </div>
-        <div className="mb-4">
+        <div className="lg:col-span-2">
           <div>
-            <ChartPieDonut />
+            <ActivityCard />
           </div>
-        </div>
-        <div className="mb-4">
-          <ChartRadialLabel />
         </div>
         <div className="lg:col-span-2">
           <div className="">
@@ -60,3 +58,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+/* <ChartRadialLabel /> */
