@@ -17,8 +17,8 @@ export function ProfileSettings() {
         <div className="flex flex-row gap-5">
           <Image src="/logo.svg" alt="logo" width={90} height={90}></Image>
           <Button
-            variant={"outline"}
-            className="absolute mx-16 my-1 rounded-full cursor-pointer"
+            variant={"secondary"}
+            className="absolute mx-16 my-3 rounded-full cursor-pointer"
             size={"icon"}
           >
             <Camera size={20} />
