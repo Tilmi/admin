@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Eye, Pen, Trash2 } from "lucide-react";
+import { Eye, Trash2 } from "lucide-react";
 
 // Define data structure
 type TeamMember = {
@@ -302,7 +302,7 @@ const teamColumns: ColumnDef<TeamMember>[] = [
             onClick={handlePreview}
             className="h-8 w-8"
           >
-            <Pen className="w-4 h-4" />
+            <Eye className="w-4 h-4" />
           </Button>
           <Button
             size="icon"

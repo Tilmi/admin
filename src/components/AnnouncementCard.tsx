@@ -13,7 +13,7 @@ import { Eye, Globe, Pin } from "lucide-react";
 export function AnnouncementCard() {
   return (
     <div>
-      <Card className="mb-4">
+      <Card className="mt-4 relative">
         <div className="grid">
           <CardHeader>
             <div className="flex flex-row gap-4">
@@ -25,7 +25,7 @@ export function AnnouncementCard() {
                   <CardDescription>July 23, 9.00 AM</CardDescription>
                 </div>
               </div>
-              <div className="flex flex-row ml-93 gap-2 items-center">
+              <div className="absolute top-3 right-5 flex gap-2 items-center">
                 <Pin strokeWidth={1.5} className="text-muted-foreground" />
                 <DropdownMenuDemo />
               </div>
@@ -39,16 +39,15 @@ export function AnnouncementCard() {
               </div>
               <div className="flex flex-col px-2">
                 <h1 className="font-medium">New Policy: ID Card</h1>
-                <CardDescription>
-                  Starting Monday,28 July 2025, all employees are required to
-                  tap their ID cards when entering the office for area access
-                  and attendance. Please bring your ID card every day. Thankyou
-                  for your cooperation.
+                <CardDescription className="text-sm text-justify">
+                  Starting Monday, 28 July 2025, all employees must tap their ID
+                  cards for office access and attendance. Please bring your ID
+                  card daily.
                 </CardDescription>
               </div>
             </CardContent>
-            <CardFooter>
-              <div className="flex flex-row gap-1 ml-155 mt-4">
+            <CardFooter className="mt-4">
+              <div className="absolute bottom-3 right-5 flex flex-row gap-1 items-center">
                 <Eye
                   size={20}
                   strokeWidth={1.5}
@@ -60,7 +59,7 @@ export function AnnouncementCard() {
           </div>
         </div>
       </Card>
-      <Card>
+      <Card className="mt-4 relative">
         <div className="grid">
           <CardHeader>
             <div className="flex flex-row gap-4">
@@ -72,7 +71,7 @@ export function AnnouncementCard() {
                   <CardDescription>July 23, 9.00 AM</CardDescription>
                 </div>
               </div>
-              <div className="flex flex-row ml-93 gap-2 items-center">
+              <div className="absolute top-3 right-5 flex gap-2 items-center">
                 <Pin strokeWidth={1.5} className="text-muted-foreground" />
                 <DropdownMenuDemo />
               </div>
@@ -86,16 +85,15 @@ export function AnnouncementCard() {
               </div>
               <div className="flex flex-col px-2">
                 <h1 className="font-medium">New Policy: ID Card</h1>
-                <CardDescription>
-                  Starting Monday,28 July 2025, all employees are required to
-                  tap their ID cards when entering the office for area access
-                  and attendance. Please bring your ID card every day. Thankyou
-                  for your cooperation.
+                <CardDescription className="text-sm text-justify">
+                  Starting Monday, 28 July 2025, all employees must tap their ID
+                  cards for office access and attendance. Please bring your ID
+                  card daily.
                 </CardDescription>
               </div>
             </CardContent>
-            <CardFooter>
-              <div className="flex flex-row gap-1 ml-155 mt-4">
+            <CardFooter className="mt-4">
+              <div className="absolute bottom-3 right-5 flex flex-row gap-1 items-center">
                 <Eye
                   size={20}
                   strokeWidth={1.5}
@@ -107,7 +105,7 @@ export function AnnouncementCard() {
           </div>
         </div>
       </Card>
-      <Card className="mt-4">
+      <Card className="mt-4 relative">
         <div className="grid">
           <CardHeader>
             <div className="flex flex-row gap-4">
@@ -119,7 +117,7 @@ export function AnnouncementCard() {
                   <CardDescription>July 23, 9.00 AM</CardDescription>
                 </div>
               </div>
-              <div className="flex flex-row ml-93 gap-2 items-center">
+              <div className="absolute top-3 right-5 flex gap-2 items-center">
                 <Pin strokeWidth={1.5} className="text-muted-foreground" />
                 <DropdownMenuDemo />
               </div>
@@ -133,16 +131,15 @@ export function AnnouncementCard() {
               </div>
               <div className="flex flex-col px-2">
                 <h1 className="font-medium">New Policy: ID Card</h1>
-                <CardDescription>
-                  Starting Monday,28 July 2025, all employees are required to
-                  tap their ID cards when entering the office for area access
-                  and attendance. Please bring your ID card every day. Thankyou
-                  for your cooperation.
+                <CardDescription className="text-sm text-justify">
+                  Starting Monday, 28 July 2025, all employees must tap their ID
+                  cards for office access and attendance. Please bring your ID
+                  card daily.
                 </CardDescription>
               </div>
             </CardContent>
-            <CardFooter>
-              <div className="flex flex-row gap-1 ml-155 mt-4">
+            <CardFooter className="mt-4">
+              <div className="absolute bottom-3 right-5 flex flex-row gap-1 items-center">
                 <Eye
                   size={20}
                   strokeWidth={1.5}

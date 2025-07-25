@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 
 export function PinnedCard() {
   return (
-    <Card>
+    <Card className="mt-4">
       <CardHeader>
         <CardTitle>Pinned Announcement</CardTitle>
         <div className="flex flex-row mt-3 gap-1 items-center">
