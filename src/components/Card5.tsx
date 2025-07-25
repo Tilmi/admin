@@ -11,8 +11,8 @@ export function Card5() {
             className="rounded-full bg-red-500/30 border-1 border-red-500/50 p-2 text-red-500 shadow-lg"
           />
           <div className="flex flex-col">
-            <CardTitle>Total Files</CardTitle>
-            <h1 className="text-2xl font-bold mt-1">10</h1>
+            <p>Total Files</p>
+            <h1 className="text-2xl font-bold ">10</h1>
           </div>
         </CardHeader>
       </Card>

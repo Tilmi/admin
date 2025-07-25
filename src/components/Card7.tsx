@@ -11,8 +11,8 @@ export function Card7() {
             className="rounded-full bg-green-500/30 border-1 border-green-500/50 p-2 text-green-500 shadow-lg"
           />
           <div className="flex flex-col">
-            <CardTitle>Files Pending</CardTitle>
-            <h1 className="text-2xl font-bold mt-1">1</h1>
+            <p>Files Pending</p>
+            <h1 className="text-2xl font-bold">1</h1>
           </div>
         </CardHeader>
       </Card>

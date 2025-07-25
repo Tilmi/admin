@@ -71,12 +71,6 @@ const Navbar = () => {
             <DropdownMenuLabel>My Account</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <Link href="/profile" className="flex items-center gap-2">
-                <User />
-                Profile
-              </Link>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
               <Link href="/settings" className="flex items-center gap-2">
                 <Settings />
                 Settings

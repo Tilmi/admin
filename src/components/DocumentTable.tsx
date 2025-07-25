@@ -24,7 +24,7 @@ import {
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Eye, Pen, Trash2, Ellipsis } from "lucide-react";
+import { Eye, Pen, Trash2, Ellipsis, FileCheck } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -265,7 +265,7 @@ const documentColumns: ColumnDef<Document>[] = [
                   Delete
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={handleApproval}>
-                  <Pen className="w-4 h-4 mr-2" />
+                  <FileCheck className="w-4 h-4 mr-2" />
                   Approve
                 </DropdownMenuItem>
               </DropdownMenuGroup>

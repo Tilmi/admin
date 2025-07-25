@@ -16,8 +16,8 @@ export function Card4() {
             </HoverCardTrigger>
           </HoverCard>
           <div className="flex flex-col">
-            <CardTitle>Total Documents</CardTitle>
-            <h1 className="text-2xl font-bold mt-1">10</h1>
+            <p>Total Documents</p>
+            <h1 className="text-2xl font-bold">10</h1>
           </div>
         </CardHeader>
       </Card>
